@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 
+import ProxyHoc from './components/proxyCom'
+
+
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          初始化项目
+          <ProxyHoc paramsa={123} />
         </header>
       </div>
     );
